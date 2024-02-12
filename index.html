@@ -371,10 +371,12 @@
     </main>
 
     <footer class="footer">
+
         <div class="container footer-container">
             <div class="logo-text">
                 <a class="footer-logo" href="./index.html">Web<span class="footer-logo-part">Studio</span></a>
-                <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing
+                <p class="footer-text">Increase the flow of customers and sales for your business with digital
+                    marketing
                     &
                     growth solutions.</p>
             </div>
@@ -411,10 +413,12 @@
                     </li>
                 </ul>
             </div>
+            <!-- <div></div> -->
         </div>
+
     </footer>
-    <div class="backdrop is-open">
-        <div class="modal">
+    <div class="backdrop is-open ">
+        <div class="modal ">
             <button type="button" class="modal-close-btn">
                 <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black-18dp"></use>
@@ -428,8 +432,7 @@
                 <div class="modal-field">
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="modal-input-wrap">
-                        <input type="text" name="user-name" class="modal-input" placeholder="User name"
-                            id="user-name" />
+                        <input type="text" name="user-name" class="modal-input" placeholder="" id="user-name" />
                         <svg class="modal-icon" width="18px" height="24px">
                             <use href=" ./images/icons.svg#icon-person-black-18dp"></use>
                         </svg>
@@ -439,7 +442,7 @@
                 <div class="modal-field">
                     <label for="user-phone" class="modal-label">Phone</label>
                     <div class="modal-input-wrap">
-                        <input type="tel" name="user-phone" class="modal-input" placeholder="User phone" required
+                        <input type="tel" name="user-phone" class="modal-input" placeholder="" required
                             id="user-phone" />
                         <svg class="modal-icon" width="18px" height="24px">
                             <use href=" ./images/icons.svg#icon-phone-black-18dp"></use>
@@ -450,8 +453,7 @@
                 <div class="modal-field">
                     <label for="user-email" class="modal-label">Email</label>
                     <div class="modal-input-wrap">
-                        <input type="email" name="user-email" class="modal-input" placeholder="User email"
-                            id="user-email" />
+                        <input type="email" name="user-email" class="modal-input" placeholder="" id="user-email" />
                         <svg class="modal-icon" width="18px" height="24px">
                             <use href=" ./images/icons.svg#icon-email-black-18dp"></use>
                         </svg>
@@ -464,7 +466,18 @@
                         placeholder="Text input"></textarea>
                 </div>
 
-                <button type="submit">Send</button>
+                <div class="modal-field">
+                    <input type="checkbox" name="policy" id="policy" value="true" class="form-check visually-hidden">
+                    <label for="policy" class="check-text"> <span><svg class="check-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg></span>I accept the terms and conditions of the
+                        <a href="">Privacy Policy</a></label>
+
+                </div>
+
+
+
+                <button type="submit" class="modal-button">Send</button>
 
             </form>
         </div>
