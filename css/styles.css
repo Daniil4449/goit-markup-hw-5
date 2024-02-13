@@ -493,6 +493,51 @@ img {
 .footer-icon-linc:focus {
   background-color: #31d0aa;
 }
+.email-btn {
+  display: flex;
+  margin-left: 80px;
+}
+.foter-form {
+}
+.input-title {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  /* position: absolute; */
+}
+.input-email {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* margin-top: 16px; */
+}
+.input-email::placeholder {
+  padding: 8px 16px;
+  color: rgba(225, 225, 225, 1);
+}
+
+.input-btn {
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  justify-content: space-around;
+  align-items: center;
+}
+.send-icon {
+}
+/**!foter **/
 /*modal*/
 .backdrop {
   position: fixed;
